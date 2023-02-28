@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="Stylesheet" href="Style.css" /> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+
+<title>e-Commerce</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+
+</head>
+
+   <body>
+   
+      <section id="header">
+
+<a href="#"><img src="img/logo1.png" height="55px", width="100%"  id="logo1" class="logo" alt "" /></a>
+
+<div>
+  <ul id="navbar">
+
+    <li><a href="index.php">Home</a></li>
+    <li><a href="how.html">How It Works</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+    <li><a href="login.html">Log In</a></li>
+    <li><a href="signin.html">Sign In</a></li>
+
+    </ul>
+  </div>
+</section>
+<section id="gig">
+<h1>Add Gig</h1>
+
+<form action="gigs.php" method="post" enctype="multipart/form-data">
+  <label for="category">Category:</label>
+  <select name="category" id="category">
+  <option value="">Select a category</option>
+  <option value="it">IT and Development</option>
+  <option value="design">Design And Creative</option>
+  <option value="writing">Writing And Translation</option>
+  <option value="admin">Admin And Costomer Support</option>
+  <option value="engineering">Engineering And Architecture</option>
+  <option value="legal">Legal</option>
+  <option value="wordpress">WordPress</option>
+  <option value="voice">Voice</option>
+  
+    </select>
+  <label for="country">Country:</label>
+  <input type="text" name="country"  placeholder= "India"id="country"><br><br>
+
+  <label for="name">First Name:</label>
+  <input type="text" name="name"  placeholder="Gaurav" id="name"><br><br>
+  
+  <label for="last_name">Last Name:</label>
+  <input type="text" name="last_name" placeholder="Patil" id="last_name"><br><br>
+  
+  <label for="username">Username:</label>
+  <input type="text" name="username" placeholder="Gaurav7620"  id="username"><br><br>
+
+  <label for="Email">Email:</label>
+  <input type="text" name="Email" placeholder="gaurav@gmail.com" id="Email"><br><br>
+  
+  <label for="job_title">Job Title:</label>
+  <input type="text" name="job_title"placeholder="For ex: writting" id="job_title"><br><br>
+  
+  <label for="experience_level">Experience Level:</label>
+  <select name="experience_level" id="experience_level">
+  <option value="">Select your experience level</option>
+  <option value="entry">Entry</option>
+  <option value="intermediate">Intermediate</option>
+  <option value="expert">Expert</option>
+  </select><br><br>
+  
+  <label for="language">Language:</label>
+  <input type="text" name="language" placeholder="Marathi, Hindi , English"  id="language"><br><br>
+  
+  <label for="skills">Skills:</label>
+  <input type="text" name="skills" id="skills" placeholder="Enter up to 5 skills with '#' before each skill (e.g. #logo design)"><br><br>
+  
+  <label for="description">Descibe your self:</label><br>
+  
+    <textarea name="description" id="description" placeholder="Minimum 100 characters" rows="4" cols="50"></textarea><br><br>
+  
+  
+  <label for="price">Price:</label>
+  <input type="number" name="price" placeholder="rate you charge" id="price"><br><br>
+  
+    <label for="image">Image:</label>
+  <input type="file" name="image" id="image"><br><br>
+  
+    <input type="submit" value="Add gig">
+  </form>
+  </section>
+  <br>
+  <br>
+  <hr>
+<footer>
+  <div class="footer-field">
+    <a href="#"><img src="img/logo1.png" height="75px", width="35%"  id="logo1" class="logo" alt "" /></a>
+  <a >A Little about WorkUp<br>
+  WorkUp is a freelance <br>services marketplace<br> is an online platform where <br>businesses 
+            can find and hire<br> individual<br>
+  Location:4465+VG7, Aurangabad <br>Burhanpur
+  Highway Road,<br> Muktainagar, Jalgaon,
+  Maharashtra 425306</a>
+</div>
+
+
+  <div class="footer-field">
+    <h5>Contact</h5>
+    <a>Email:help@workup.com</a>
+    <a>Phone:02584250242</a>
+    <a>Location:4465+VG7, Aurangabad <br>Burhanpur
+      Highway Road,<br> Muktainagar, Jalgaon,
+      Maharashtra 425306</a>
+  </div>
+
+  <div class="footer-field">
+    <h5>About</h5>
+    <a href="overview.html">Company Overview</a>
+    <a href="history.html">History</a>
+    <a href="legal.html">Legal Information</a>
+    
+    
+  </div>
+  <div class="footer-field">
+    <h5>Top Skills</h5>
+    <a href="#">Web Development</a>
+    <a href="#">Design</a>
+    <a href="#">Marketing</a>
+    <a href="#">Transcribe</a>
+    <a href="#">Logo Design</a>
+    
+    
+    
+  </div>
+
+  <div class="footer-field">
+    <h5>Help Support</h5>
+    <a href="help&support.html">Help,Support</a>
+    <a href="tss.html">Trust, Security & Safety</a>
+    <a href="terms.html">Terms & Conditions</a>
+    
+  </div>
+
+  <div class="footer-field">
+    <h5>Browse</h5>
+    <a href="how.html">How Upwork Work</a>
+    <a href="allgigs.php">Freeancing Services</a>
+    <a href="allgigs.php">Freeancing Skills</a>
+  </div>
+</footer>
+
+<div class="ft">
+<div class="footer-field">
+<a href="#"><img src="img/logo1.png" height="55px", width="100%"  id="logo1" class="logo" alt "" /></a>
+      <!-- <h3>A Little About Stamina.</h3>
+      <p>Facilis ipsum reprehenderit nemo molestias.<br> Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+      <p><a href="#">Become A Member</a></p> -->
+  </div>
+<p>Copyright &copy; 2023 WorkUp</p>
+<div class="social-icons">
+<a href="#">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+<a href="#">
+<i class="fab fa-facebook-f"></i>
+</a>
+</div>
+</div>
